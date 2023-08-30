@@ -11,7 +11,7 @@ server.use(router);
 server.listen(port);
 
 server.use(cors({
-  origin: ["http://localhost:5173"],
+  origin: ["http://localhost:5173", "https://json-server-deploy.glitch.me"],
   methods: "GET,HEAD,PUT,PATCH,POST,DELETE",
   allowedHeaders: "Content-Type,Authorization",
 }));
